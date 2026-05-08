@@ -10,11 +10,11 @@ class Lecture(models.Model):
         ('canceled', 'Отменена'),
     )
 
-    title = models.CharField(max_length=255)
-    subject = models.CharField(max_length=255)
-    date = models.DateField()
+    lection_name = models.CharField(max_length=255)
+    cource_name = models.CharField(max_length=255)
+    lection_date = models.DateField()
     start_time = models.TimeField()
     end_time = models.TimeField()
     status = models.CharField(max_length=10, choices=STATUS)
-
-    teacher = models.ForeignKey(User, on_delete=models.CASCADE)
+    records = models.ForeignKey(Records, on_delete=models.CASCADE)
+    teachers = models.ForeignKey(Teachers, on_delete=models.CASCADE)
