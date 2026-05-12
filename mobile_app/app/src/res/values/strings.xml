@@ -1,0 +1,35 @@
+<resources>
+
+    <string name="app_name">
+        lecturehelper
+    </string>
+
+    <string name="login">
+        Войти
+    </string>
+
+    <string name="register">
+        Регистрация
+    </string>
+
+    <string name="email">
+        Email
+    </string>
+
+    <string name="password">
+        Пароль
+    </string>
+
+    <string name="start_recording">
+        Начать запись
+    </string>
+
+    <string name="stop_recording">
+        Остановить запись
+    </string>
+
+    <string name="lecture_list">
+        Список лекций
+    </string>
+
+</resources>
