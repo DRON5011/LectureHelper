@@ -37,7 +37,16 @@ fun Navigation() {
         composable("register") {
 
             RegisterScreen(
-                navController = navController
+
+                onRegisterSuccess = {
+
+                    navController.navigate("lectures") {
+
+                        popUpTo("login") {
+                            inclusive = true
+                        }
+                    }
+                }
             )
         }
 
@@ -81,7 +90,14 @@ fun Navigation() {
         composable("createLecture") {
 
             CreateLectureScreen(
-                navController = navController
+
+                onLectureCreated = {
+
+                    navController.navigate("lectures") {
+
+                        popUpTo("lectures")
+                    }
+                }
             )
         }
 

@@ -12,9 +12,9 @@ class CreateLectureUseCase @Inject constructor(
     suspend operator fun invoke(
         lection_name: String,
         course_name: String,
-        lection_date: Date,
-        start_time: Time,
-        end_time: Time,
+        lection_date: String,
+        start_time: String,
+        end_time: String,
         status: String
     ): Lecture {
 

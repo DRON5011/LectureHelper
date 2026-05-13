@@ -6,9 +6,9 @@ data class Marker(
 
     val lectureId: String,
 
-    val start_time: Time,
+    val start_time: String,
 
-    val end_time: Time,
+    val end_time: String,
 
     val type: MarkerType,
 

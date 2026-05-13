@@ -8,11 +8,11 @@ data class Lecture(
 
     val course_name: String,
 
-    val lection_date: Date,
+    val lection_date: String,
 
-    val start_time: Time,
+    val start_time: String,
 
-    val end_time: Time,
+    val end_time: String,
 
     val created_at: String,
 
