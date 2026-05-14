@@ -13,15 +13,18 @@
         android:name="android.permission.FOREGROUND_SERVICE"/>
 
     <uses-permission
+        android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE"/>
+
+    <uses-permission
         android:name="android.permission.POST_NOTIFICATIONS"/>
 
     <application
-        android:name="com.example.lecturehelper.LectureAiApp"
+        android:name=".LectureAiApp"
         android:allowBackup="true"
         android:fullBackupContent="@xml/backup_rules"
-        android:dataExtractionRules="xml/data_extraction_rules"
-        android:networkSecurityConfig="xml/network_security_config"
-        android:theme="style/Theme.Lecturehelper">
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:theme="@style/Theme.Lecturehelper">
 
         <activity
             android:name="com.example.lecturehelper.MainActivity"
@@ -42,7 +45,6 @@
             android:name="com.example.lecturehelper.services.AudioRecordingService"
             android:foregroundServiceType="microphone"
             android:exported="false"/>
-
     </application>
 
 </manifest>

@@ -2,6 +2,7 @@ package com.example.lecturehelper.data.repository
 
 import com.example.lecturehelper.data.api.LectureApi
 import com.example.lecturehelper.domain.model.Lecture
+import com.example.lecturehelper.data.dto.CreateLectureRequest
 import okhttp3.MultipartBody
 import javax.inject.Inject
 
@@ -22,9 +23,9 @@ class LectureRepository @Inject constructor(
     suspend fun createLecture(
         lection_name: String,
         course_name: String,
-        lection_date: Date,
-        start_time: Time,
-        end_time: Time,
+        lection_date: String,
+        start_time: String,
+        end_time: String,
         status: String
     ): Lecture {
 

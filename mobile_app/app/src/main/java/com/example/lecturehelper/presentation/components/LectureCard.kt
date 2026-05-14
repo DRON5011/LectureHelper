@@ -17,7 +17,7 @@ fun LectureCard(
     ) {
 
         Text(
-            text = lecture.title
+            text = lecture.lection_name
         )
     }
 }

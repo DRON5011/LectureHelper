@@ -1,2 +1,28 @@
 R_DEF: Internal format may change without notice
 local
+color background
+color error
+color primary
+color secondary
+dimen padding_large
+dimen padding_medium
+dimen padding_small
+drawable ic_book
+drawable ic_launcher_foreground
+drawable ic_microphone
+drawable ic_pause
+drawable ic_play
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string email
+string lecture_list
+string login
+string password
+string register
+string start_recording
+string stop_recording
+style Theme.Lecturehelper
+xml backup_rules
+xml data_extraction_rules
+xml network_security_config

@@ -26,5 +26,5 @@ data class Lecture(
 
     val status: LectureStatus,
 
-    val markers: List<Marker>
+    val markers: List<String>
 )
