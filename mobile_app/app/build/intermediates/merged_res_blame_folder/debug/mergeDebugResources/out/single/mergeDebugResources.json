@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "com.example.lecturehelper.app-debug-75:/drawable_ic_book.xml.flat",
+        "source": "com.example.lecturehelper.app-main-77:/drawable/ic_book.xml"
+    },
+    {
+        "merged": "com.example.lecturehelper.app-debug-75:/drawable_ic_play.xml.flat",
+        "source": "com.example.lecturehelper.app-main-77:/drawable/ic_play.xml"
+    },
+    {
+        "merged": "com.example.lecturehelper.app-debug-75:/xml_network_security_config.xml.flat",
+        "source": "com.example.lecturehelper.app-main-77:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "com.example.lecturehelper.app-debug-75:/drawable_ic_pause.xml.flat",
+        "source": "com.example.lecturehelper.app-main-77:/drawable/ic_pause.xml"
+    },
+    {
+        "merged": "com.example.lecturehelper.app-debug-75:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.lecturehelper.app-main-77:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.lecturehelper.app-debug-75:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.lecturehelper.app-main-77:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.lecturehelper.app-debug-75:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.lecturehelper.app-main-77:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.lecturehelper.app-debug-75:/drawable_ic_microphone.xml.flat",
+        "source": "com.example.lecturehelper.app-main-77:/drawable/ic_microphone.xml"
+    },
+    {
+        "merged": "com.example.lecturehelper.app-debug-75:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.lecturehelper.app-main-77:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.lecturehelper.app-debug-75:/xml_backup_rules.xml.flat",
+        "source": "com.example.lecturehelper.app-main-77:/xml/backup_rules.xml"
+    }
+]

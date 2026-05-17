@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">
+        #F5F7FA
+    </color>
+    <color name="error">
+        #C62828
+    </color>
+    <color name="primary">
+        #1565C0
+    </color>
+    <color name="secondary">
+        #42A5F5
+    </color>
+    <dimen name="padding_large">
+        24dp
+    </dimen>
+    <dimen name="padding_medium">
+        16dp
+    </dimen>
+    <dimen name="padding_small">
+        8dp
+    </dimen>
+    <string name="app_name">
+        lecturehelper
+    </string>
+    <string name="email">
+        Email
+    </string>
+    <string name="lecture_list">
+        Список лекций
+    </string>
+    <string name="login">
+        Войти
+    </string>
+    <string name="password">
+        Пароль
+    </string>
+    <string name="register">
+        Регистрация
+    </string>
+    <string name="start_recording">
+        Начать запись
+    </string>
+    <string name="stop_recording">
+        Остановить запись
+    </string>
+    <style name="Theme.Lecturehelper" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+    </style>
+</resources>
